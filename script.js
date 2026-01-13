@@ -32,16 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         countUp();
     }
 
-    // 2. Last Update Date
-    const updateDisplay = document.getElementById('last-update');
-    if (updateDisplay) {
-        const now = new Date();
-        const dateString = now.toLocaleDateString('ja-JP', {
-            year: 'numeric',
-            month: '2-digit',
-            day: '2-digit'
-        }).replace(/\//g, '.'); // Replace / with . for digital look
-
-        updateDisplay.textContent = dateString;
-    }
+    // 2. Last Update Date - Logic removed to allow static date from GitHub Actions
+    // const updateDisplay = document.getElementById('last-update');
+    // if (updateDisplay) { ... }
 });
