@@ -4,54 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>★taneguchi's room★</title>
+    <title>TANEGUCHI // PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Orbitron:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="marquee-area">
-        <marquee scrollamount="5">ご来訪ありがとうございます！</marquee>
-    </div>
+    <div class="background-overlay"></div>
 
-    <div class="container">
+    <div class="glass-container fade-in">
         <header>
-            <h1>ようこそ、taneguchiのページへ</h1>
-            <div class="maintenance-memo">
-                <img src="./assets/construction.gif" height="20" style="vertical-align: middle;">
-                （整備するのをサボっていますが・・）
+            <h1 class="glitch-text" data-text="TANEGUCHI">TANEGUCHI</h1>
+            <p class="subtitle">SYSTEM ENGINEER / DEVELOPER</p>
+            <div class="status-bar">
+                <span class="status-item"><i class="fa-solid fa-signal"></i> ONLINE</span>
+                <span class="status-item">LAST UPDATE: <span id="last-update"></span></span>
             </div>
-            <div class="update-date retro-blink">最終更新日：LAST_UPDATE_DATE</div>
         </header>
 
-        <hr class="section-divider">
-
         <main class="profile-section">
-            <img src="./assets/icon.jpeg" alt="icon" class="profile-icon">
-
             <div class="profile-card">
-                <div class="profile-header">PROFILE</div>
-                <div class="profile-body">
-                    <span>NAME:</span> taneguchi<br>
-                    <span>AGE:</span> 29歳<br>
-                    <span>ADDR:</span> 名古屋<br>
-                    <span>JOB:</span> システムエンジニア<br>
-                    <span>HOBBY:</span> 登山
+                <div class="card-image">
+                    <img src="./assets/icon.jpeg" alt="icon" class="profile-icon">
+                    <div class="scan-line"></div>
                 </div>
-                <div class="sns-links">
-                    <a href="https://x.com/_taneguchi"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.instagram.com/_taneguchi/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://github.com/taneguchi"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/taneguchi/"><i class="fa-brands fa-linkedin"></i></a>
+                <div class="card-content">
+                    <h2 class="section-title">PROFILE_</h2>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="label">NAME</span>
+                            <span class="value">taneguchi</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">AGE</span>
+                            <span class="value" id="age-display">--</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">LOC</span>
+                            <span class="value">NAGOYA, JPN</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">JOB</span>
+                            <span class="value">System Engineer</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">HOBBY</span>
+                            <span class="value">Mountaineering</span>
+                        </div>
+                    </div>
+
+                    <div class="sns-links">
+                        <a href="https://x.com/_taneguchi" class="sns-btn"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/_taneguchi/" class="sns-btn"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/taneguchi" class="sns-btn"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/taneguchi/" class="sns-btn"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
         </main>
 
         <footer>
-            (C) 1996- taneguchi<br>
-            <a href="mailto:taneguchi@mijissou.com">管理人へメールを送る</a>
+            <div class="copyright">&copy; 2024 TANEGUCHI. All Systems Operational.</div>
+            <a href="mailto:taneguchi@mijissou.com" class="contact-link">ESTABLISH_COMMS</a>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
