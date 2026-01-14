@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--bg-color);
-    background-image: url('./assets/starry_bg.png');
+    background-image: url('./assets/starry_bg.jpg');
     background-repeat: repeat;
     color: var(--text-primary);
     font-family: var(--font-body);
