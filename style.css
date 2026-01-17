@@ -242,6 +242,7 @@ header {
     font-size: 1.2rem;
     border: 1px solid transparent;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .sns-btn:hover {
@@ -375,4 +376,21 @@ footer {
     .card-content {
         padding: 20px;
     }
+}
+
+/* Pulse Animation */
+@keyframes pulse-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+
+.pulse-slow {
+    animation: pulse-opacity 3s ease-in-out infinite;
 }
