@@ -13,17 +13,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body>
+    <canvas id="bg-canvas"></canvas>
     <div class="background-overlay"></div>
 
     <div class="glass-container fade-in">
         <header>
-            <h1 class="glitch-text" data-text="TANEGUCHI">TANEGUCHI</h1>
+            <h1 class="glitch-text">TANEGUCHI</h1>
             <p class="subtitle">WEB TECH ENTHUSIAST</p>
             <div class="status-bar">
-                <span class="status-item pulse-slow">LAST UPDATE: <span id="last-update">LAST_UPDATE_DATE</span></span>
+                <span class="status-item pulse-slow">LAST UPDATE: <span id="last-update">2026.02.14</span></span>
             </div>
         </header>
 
@@ -39,7 +41,7 @@
                     <div class="info-grid">
                         <div class="info-item">
                             <span class="label">NAME</span>
-                            <span class="value">taneguchi</span>
+                            <span class="value">Shota Taneguchi</span>
                         </div>
                         <div class="info-item">
                             <span class="label">AGE</span>
@@ -47,7 +49,7 @@
                         </div>
                         <div class="info-item">
                             <span class="label">LOC</span>
-                            <span class="value">NAGOYA, JPN</span>
+                            <span class="value">Nagoya, JPN</span>
                         </div>
                         <div class="info-item">
                             <span class="label">JOB</span>
@@ -76,7 +78,7 @@
             <a href="mailto:taneguchi@mijissou.com" class="contact-link">ESTABLISH_COMMS</a>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="background-animation.js"></script>
 </body>
 
 </html>
