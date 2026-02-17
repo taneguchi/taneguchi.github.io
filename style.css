@@ -374,4 +374,19 @@ footer {
     .card-content {
         padding: 30px 20px;
     }
+
+    .sns-links {
+        justify-content: center;
+        margin-top: 20px;
+        /* Override margin-top: auto to reduce gap */
+        padding-top: 0;
+        /* Reduce padding */
+        gap: 16px;
+    }
+
+    .sns-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
 }
