@@ -1,15 +1,11 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="61px" height="61px" viewBox="-0.5 -0.5 61 61" content="&lt;mxfile&gt;&lt;diagram id=&quot;q6KR5hLdaGc__U406dfx&quot; name=&quot;Page-1&quot;&gt;3ZfLcoMgFIafxm0mQNB0G2vSTVdZdE0jiUxRHEKi6dMXK16IZuxMNTPJxoH/cOTw8ePFQX6cbyRJo3cRUu7AeZg76NWBEAFPXwvhUgpwiUrhIFlYSqARtuybGnFu1BML6dEaqITgiqW2uBNJQnfK0oiUIrOH7QW3Z03JgXaE7Y7wrvrBQhWV6hJ6jf5G2SGqZgbuSxmJSTXYrOQYkVBkLQkFDvKlEKpsxblPecGu4lLmrW9E68IkTdRfEopYkXEm/GQWZwpTl2q1WcQU3aZkV/QzvaEOWkUq5roHdJMc05LxnuVU33Z1VFJ8UV9wIbWaiETnrfaM8yupW6sp/0ylonlLMrVvqIipkhc9xESh4Vr5yGxA1myKa0BHrf2oNGJscKjv25DSDQPrBrhhbjIS8edJz7EaINhm40Dk+wFer2+BHIEamlvUqm6LGuyhBkeghsZ3Wwee708KD9vwFl14oAceGAGeOwxPJ+hnIB223BDGAE+M0QUziC2S2JvhDstaa8Osxf/Q9J6K5tWJ7oKcypTgCY60d0UP9hgR9PgQjGBDsHjgFwlezjz7EC/6DvFk3sOP7z1cm80QdO/I76megdjm6N2R4yN/DHYMiCcDp7vNn81vrPV7iIIf&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="61px" height="61px" viewBox="-0.5 -0.5 61 61" content="&lt;mxfile&gt;&lt;diagram id=&quot;q6KR5hLdaGc__U406dfx&quot; name=&quot;Page-1&quot;&gt;3ZYxc4MgFIB/jWsuikq6ak26dMrQmSpRrigekmj664sVFKM520sytEsOvgcCH89nLBDmzY6jMntlCaaWs04aCzxbjgNsKH9bcO6AswEdSDlJOmQPYE8+sYJrRY8kwdVooGCMClKOYcyKAsdixBDnrB4POzA6XrVEKZ6AfYzolL6RRGQd3Thw4C+YpJle2fafukiO9GB1kipDCasNBCILhJwx0bXyJsS0dae9dPO2V6L9xjguxE8mtLF2xgnRozqc2pg469PWGRF4X6K47dfyQi0QZCKnsmfLJqrKzvGBNFg+NqgEZx84ZJRxSQtWyHnBgVB6gaZ7Vds/YS5wYyC19x1mORb8LIeoqKO86jxSF1APl+Ir0ZlxH5ohlQZp/9zBlGwoWVfELXvjGcvfj3KNYMGg6cZyQBhG3nZ7TeQdrIH1yJruGtbcGWvuHaz5y9bkBPka42Vrk7y70Bh5YfhQjZ63cryRSTg1CVfeVGUPb3EJ/5NLOE5Jd6MNGSr1V8M0qdktIm1w/xo4eaUf7M+Hl7no+3MKn1ZwJh8NfJNI9w8XRd/tHei6COYMzlRG+/eVUXaHj/x3zPinBKIv&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
         <rect x="0" y="0" width="60" height="60" fill="none" stroke="none" pointer-events="all"/>
-        <path d="M 11 3 L 21 13 L 11 23 L 1 13 Z" fill="#cce5ff" stroke="none" pointer-events="all"/>
-        <rect x="21" y="13" width="10" height="10" fill="#ccccff" stroke="none" pointer-events="all"/>
-        <ellipse cx="36" cy="34.25" rx="3.75" ry="3.75" fill="#e5ccff" stroke="none" pointer-events="all"/>
-        <ellipse cx="36" cy="13" rx="5" ry="5" fill="#e5ccff" stroke="none" pointer-events="all"/>
-        <rect x="41" y="5.5" width="15" height="15" fill="#ccccff" stroke="none" pointer-events="all"/>
-        <path d="M 34.75 20.5 L 39.75 25.5 L 34.75 30.5 L 29.75 25.5 Z" fill="#cce5ff" stroke="none" pointer-events="all"/>
-        <rect x="23.5" y="38" width="10" height="10" fill="#ccccff" stroke="none" pointer-events="all"/>
-        <ellipse cx="31" cy="53" rx="5" ry="5" fill="#e5ccff" stroke="none" pointer-events="all"/>
-        <path d="M 28.5 28 L 33.5 33 L 28.5 38 L 23.5 33 Z" fill="#cce5ff" stroke="none" pointer-events="all"/>
+        <path d="M 21 3 L 41 23 L 21 43 L 1 23 Z" fill="#cce5ff" stroke="none" pointer-events="all"/>
+        <ellipse cx="30" cy="46.75" rx="3.75" ry="3.75" fill="#e5ccff" stroke="none" pointer-events="all"/>
+        <ellipse cx="49.5" cy="30" rx="8.5" ry="8.5" fill="#e5ccff" stroke="none" pointer-events="all"/>
+        <rect x="38.25" y="39.5" width="19.75" height="19.75" fill="#ccccff" stroke="none" pointer-events="all"/>
+        <path d="M 40.75 6.5 L 45.75 11.5 L 40.75 16.5 L 35.75 11.5 Z" fill="#cce5ff" stroke="none" pointer-events="all"/>
     </g>
 </svg>

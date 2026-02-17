@@ -33,13 +33,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set current date
-        run: echo "CURRENT_DATE=$(date +'%Y/%m/%d')" >> $GITHUB_ENV
+        run: echo "CURRENT_DATE=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
         env:
           TZ: 'Asia/Tokyo'
 
       - name: Update last update date in HTML
-        # | を使って複数行コマンドを記述するか、1行で記述します
-        run: sed -i "s@LAST_UPDATE_DATE@${{ env.CURRENT_DATE }}@g" index.html
+        run: sed -i "s/LAST_UPDATE_DATE/${{ env.CURRENT_DATE }}/g" index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
