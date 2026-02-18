@@ -38,7 +38,9 @@ jobs:
           TZ: 'Asia/Tokyo'
 
       - name: Update last update date in HTML
-        run: sed -i "s/LAST_UPDATE_DATE/${{ env.CURRENT_DATE }}/g" index.html
+        run: |
+          sed -i "s/LAST_UPDATE_DATE/${{ env.CURRENT_DATE }}/g" index.html
+          sed -i "s/CONTACT_EMAIL/${{ secrets.CONTACT_EMAIL }}/g" index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
