@@ -355,12 +355,27 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     .glass-container {
-        padding: 40px 20px;
-        width: 95%;
+        padding: 20px 15px;
+        width: 92%;
+        margin: 10px 0;
+    }
+
+    header {
+        margin-bottom: 20px;
     }
 
     .glitch-text {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 0.75rem;
+        margin-top: 8px;
+    }
+
+    .status-bar {
+        margin-top: 15px;
+        font-size: 0.65rem;
     }
 
     .profile-card {
@@ -368,25 +383,51 @@ footer {
     }
 
     .card-image {
-        min-height: 250px;
+        flex: none;
+        height: 200px;
+        min-height: auto;
     }
 
     .card-content {
-        padding: 30px 20px;
+        flex: none;
+        padding: 20px 15px 12px;
+    }
+
+    .section-title {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .info-grid {
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5px;
+    }
+
+    .value {
+        font-size: 0.9rem;
     }
 
     .sns-links {
         justify-content: center;
-        margin-top: 20px;
-        /* Override margin-top: auto to reduce gap */
+        margin-top: 12px;
         padding-top: 0;
-        /* Reduce padding */
-        gap: 16px;
+        gap: 12px;
     }
 
     .sns-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 1.3rem;
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+    }
+
+    footer {
+        margin-top: 20px;
+        padding-top: 15px;
+    }
+
+    .contact-link {
+        padding: 4px 12px;
+        font-size: 0.7rem;
     }
 }
